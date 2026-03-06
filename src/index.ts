@@ -19,14 +19,7 @@ if (!GIPHY_API_KEY) {
 }
 export const handler = async (event: Event) => {
   let query: string;
-  try {
-    query = event.body.query;
-  } catch {
-    return {
-      statusCode: 400,
-      body: JSON.stringify({ error: "Invalid request body" }),
-    };
-  }
+  query = event.body.query;
   if (!query) {
     return {
       statusCode: 400,
