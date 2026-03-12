@@ -3,6 +3,6 @@ The Function can be accessed by the url -- https://rqrd5sy43s37h3ry55zohffnve0ri
 Example of the function body
 ```json
 {
-  "query":"Cat";
+  "query":"Cat"
 }
 ```
